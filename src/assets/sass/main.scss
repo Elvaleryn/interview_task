@@ -1,0 +1,34 @@
+@import "variables.scss";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/alert";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: $bg-primary;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+button {
+     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+@import "navbar.scss";
+@import "footer.scss";
+@import "album.scss";

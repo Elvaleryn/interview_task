@@ -1,0 +1,62 @@
+.album {
+    .card {
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+        .card-footer {
+            .icon {
+                width: 1rem;
+                height: 1rem;
+
+                svg {
+                    fill: gray;
+                }
+            }
+        }
+    }
+
+    .modal {
+
+        .modal-body {
+            background-color: $light-gray-color;
+
+            .comment {
+                font-size: .8rem;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid white;
+                }
+
+                .text-muted {
+                    font-style: italic;
+                }
+
+                .comment-name {
+                    font-weight: 600;
+                }
+            }
+
+            .album-image {
+                width: 64px;
+                height: 64px;
+                cursor: pointer;
+                border: 2px solid gray;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        .carousel-inner {
+            img {
+                max-height: 300px;
+            }
+        }
+
+
+    }
+
+}

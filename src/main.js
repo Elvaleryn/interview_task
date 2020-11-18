@@ -13,5 +13,5 @@ import 'bootstrap/js/src/util'
 import 'bootstrap/js/src/button'
 
 new Vue({
-  render: h => h(App)
+    render: h => h(App)
 }).$mount('#app')

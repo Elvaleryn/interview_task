@@ -3,7 +3,7 @@
 		<img
 			:src="src"
 			class="m-3 album-image"
-			alt=""
+			alt="image"
 		/>
 	</a>
 </template>
